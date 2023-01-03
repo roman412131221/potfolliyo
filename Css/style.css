@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 90vh;
+    background: url("banner.jpg");
+    background-color: #02304760;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-item {
+    text-align: center;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: normal;
+    color:whitesmoke;
+
+}
+
+.p-text {
+    padding: 5px;
+    font-weight: normal;
+    color: #ddd;
+}
+
+.banner-btn {
+    margin: 6px;
+    padding: 6px 18px;
+    border: none;
+    background-color: #023047;
+    color: white;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+.banner-btn:hover {
+    background-color: white;
+    color: #023047;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        background-image: url("pexels.jpg");
+    }
+}
+
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.progress{
+    background-color: #f0dda2;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.progress-bar{
+    background-color: #023047;
+    border-radius: 50px;
+}
+
+.card{
+    background-color: #e3c670;
+    border-radius: 10px;
+}
+
+.fa-solid{
+    font-size: 45px !important;
+    padding: 10px !important;
+}
+
+
+iframe{
+   
+    width: 100vh;
+}
+
+.container-fluid{
+    background-color:whitesmoke;
+}
+
+}
